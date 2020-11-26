@@ -62,6 +62,10 @@
       Grid.Column="3"
       Margin="5"
       DisplayMemberPath="Name"
+       IsTextSearchCaseSensitive="False"
+        IsTextSearchEnabled="True"
+        TextSearch.TextPath="Name"
+      IsEditable="True"
       ItemsSource="{Binding Procedures, Mode=OneWay}"
       SelectedValue="{Binding Procedure}" />
 
